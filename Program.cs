@@ -3,13 +3,7 @@
 
 
 public class CowsAndBulls
-{
-    public static void Main()
-    {
-        
-    }
-
-    public int GenerateNumber()
+{  public int GenerateNumber()
     {
         Random random = new Random();
         int number = random.Next(1234, 9877);
