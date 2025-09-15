@@ -1,13 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace CowsAndBulls;
 
+public class CowsAndBullsGame
+{
+    private readonly Random _random;
 
-
-public class CowsAndBulls
-{  public int GenerateNumber()
+    public CowsAndBullsGame()
     {
-        Random random = new Random();
-        int number = random.Next(1234, 9877);
-        return number;
+        _random = new Random();
+    }
+
+    public int GenerateNumber()
+    {
+        return _random.Next(1234, 9877);
     }
 
     public bool Check(int toCheck)
@@ -18,10 +22,11 @@ public class CowsAndBulls
         {
             for (int j = 0; j < 4; j++)
             {
-                
+
             }
         }
+
         return check;
     }
-    
+
 }
