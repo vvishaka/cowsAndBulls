@@ -17,14 +17,7 @@ public class CowsAndBullsGame
     public bool Check(int toCheck)
     {
         bool check = true;
-        string numberString = toCheck.ToString();
-        for (int i = 0; i < 4; i++)
-        {
-            for (int j = 0; j < 4; j++)
-            {
 
-            }
-        }
 
         return check;
     }
